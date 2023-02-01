@@ -52,18 +52,18 @@
     "Enemies": {
       "Materials": [
         {
-          "Alpha": 0.34591192,
-          "Color": "#8585ff",
+          "Alpha": 0.0,
+          "Color": "#da8eff",
           "Enabled": true,
-          "Material": 1
+          "Material": 11
         },
         {
           "Alpha": 0.3333333,
-          "Color": "#5157e8",
+          "Color": "#9094ff",
           "Cover": true,
           "Enabled": true,
           "Ignore-Z": true,
-          "Material": 1
+          "Material": 11
         },
         {},
         {},
@@ -97,10 +97,10 @@
     "Local player": {
       "Materials": [
         {
-          "Alpha": 0.4528302,
-          "Color": "#6a50ff",
+          "Alpha": 0.0,
+          "Color": "#9b89ff",
           "Enabled": true,
-          "Material": 2
+          "Material": 11
         },
         {},
         {},
@@ -216,8 +216,9 @@
   },
   "Fake angle": {
     "Enabled": true,
-    "Lby mode": 1,
-    "Peek mode": 2
+    "Left limit": 32,
+    "Peek mode": 3,
+    "Right limit": 32
   },
   "Fakelag": {
     "Limit": 15,
@@ -240,8 +241,7 @@
       "Enemies": {
         "All": {
           "Alpha": 0.6163522,
-          "Color": "#5276f2",
-          "Enabled": true
+          "Color": "#5276f2"
         }
       }
     }
@@ -436,7 +436,7 @@
     "At targets": true,
     "Enabled": true,
     "Freestand": true,
-    "Jitter Range": 10,
+    "Jitter Range": 26,
     "Manual backward Key": {
       "Key": "NONE",
       "Key mode": 0
@@ -455,7 +455,7 @@
     },
     "Pitch": 1,
     "Static legs": true,
-    "Yaw add": -2,
+    "Yaw add": 30,
     "Yaw base": 2,
     "Yaw modifier": 1
   },
